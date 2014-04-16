@@ -10,7 +10,7 @@ library(MASS)
 ## Save your Excel file into a csv file, delete the MRN column (often causes problems in reading)
 
 ## Read data in csv format into data frame ##
-fulldata <- read.table(file="/Users/username/foldername/filename.csv", header=T, sep=",", row.names=1)
+fulldata <- read.table(file="/Users/username/foldername/filename.csv", header=T, sep=",")
 
 ## Save data as an R object ##
 save(fulldata,file="/Users/username/foldername/filename.Robj")
